@@ -29,7 +29,7 @@ body {
   z-index: 0; }
 
 .navbar-dark {
-  background-color: lightskyblue; }
+  background-color: #0066ff; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,7 +38,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: lightskyblue; }
+  background: #0066ff; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -52,3 +52,13 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #0066ff;
+  color: floralwhite; }
+
+.modal-body {
+  background-color: lightskyblue; }
+
+.modal-header button {
+  color: floralwhite; }

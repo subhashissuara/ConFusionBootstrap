@@ -1,14 +1,15 @@
 $lt-gray: #ddd;
-$background-dark: lightskyblue;
+$background-dark: rgb(0, 102, 255);
 $background-light: lightskyblue;
 $background-pale: lightskyblue;
+$florawhite: floralwhite;
 
 // Height Variables
 $carousel-item-height: 300px;
 
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
-	padding: $pad-up-dn $pad-left-right;
+    padding: $pad-up-dn $pad-left-right;
 }
 
 .row-header{
@@ -74,3 +75,17 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-header {
+    background-color: $background-dark;
+    color: $florawhite;
+  }
+.modal-body {
+  background-color: $background-light;
+}
+
+.modal-header button{
+    color: $florawhite;
+  }
+
+
